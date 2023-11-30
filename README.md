@@ -43,17 +43,17 @@ If you plan on not using Docker for setting environment, make sure that you are 
      ln -s $ALFRED_ROOT/data/json_feat_2.1.0/ $FILM/alfred_data_all/json_2.1.0
      ```
      
-   4. After this step, `alfred_data_all` directory should look like this:
+   -  After this step, `alfred_data_all` directory should look like this:
 
       ```bash
-   alfred_data_all
-      └── json_2.1.0
-       ├── tests_unseen
-          ├── tests_seen
-          ├── valid_unseen
-          ├── tests_seen
-          ├── trial_T2019...
-          └── ...
+      alfred_data_all
+         └── json_2.1.0
+          ├── tests_unseen
+             ├── tests_seen
+             ├── valid_unseen
+             ├── tests_seen
+             ├── trial_T2019...
+             └── ...
       ```
 
 4. [Download Trained models](https://github.com/soyeonm/FILM#download-trained-models)
